@@ -1,0 +1,42 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#title {
+	top: 0;
+	left: 0;
+	width: 630px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0px;
+	padding: 0px 5px 0px 5px;
+	background: grey;
+	color: black;
+	font-family: "Courier New", Courier, sans-serif;
+	overflow: hidden;
+}
+
+div#description {
+	width: 630px;
+	height: 446px;
+	margin: 0px;
+	padding: 0px;
+	padding: 5px 5px 5px 5px;
+	background: black;
+	color: white;
+	font-family: "Courier New", Courier, sans-serif;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+input#commands {
+	margin-top:1px;
+	width: 638px;
+	height: 24px;
+	border: 1px solid black;
+	background: black;
+	color: white;
+	font-family: "Courier New", Courier, sans-serif;
+	overflow: hidden;
+}

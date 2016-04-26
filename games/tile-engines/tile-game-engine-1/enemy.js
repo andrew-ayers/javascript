@@ -1,0 +1,2 @@
+var Enemy = function(options) {
+}
