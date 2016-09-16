@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			html,
+			body {
+				margin: 0;
+				height: 100%;
+			}
+
+			/* Scale canvas with resize attribute to full size */
+			canvas[resize] {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		</style>	
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="../js/paperjs/dist/paper-full.min.js"></script>
+		<script type="text/paperscript" src="zoomgrid.js" canvas="canvas"></script>
+
+		<title>Paper.JS Zoomable Grid</title>
+	</head>
+	<body>
+	    <canvas id="canvas" resize></canvas>
+	</body>
+</html>

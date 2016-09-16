@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			html,
+			body {
+				margin: 0;
+				height: 100%;
+			}
+
+			/* Scale canvas with resize attribute to full size */
+			canvas {
+				display: block;
+				border: 1px solid red;
+			}
+		</style>
+
+		<script type="text/javascript" src="../js/jquery-2.2.3.js"></script>
+		<script type="text/javascript" src="../js/paperjs/dist/paper-full.min.js"></script>
+		<script type="text/paperscript" src="scaletest.js" canvas="myCanvas"></script>
+
+		<title>Paper.JS Testing</title>
+	</head>
+	<body>
+		<canvas id="myCanvas"></canvas>
+	</body>
+</html>
